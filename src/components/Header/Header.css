@@ -1,0 +1,18 @@
+.title{
+    text-transform: uppercase;
+    font-size: 4.5vw;
+    font-family: 'Times New Roman', Times, serif;
+    /* cursor: pointer; */
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divider{
+    margin: 10px;
+    width: 100%;
+    height: 2px;
+    border: none;
+    background-color: rgb(66, 63, 63);
+}

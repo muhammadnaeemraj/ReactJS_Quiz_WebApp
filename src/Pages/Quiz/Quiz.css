@@ -1,0 +1,13 @@
+.quiz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "poppins", sans-serif;
+}
+
+.subTitle{
+    font-size: 25px;
+    border: 1px solid black;
+    box-shadow: 04px 4px 2px black;
+    padding: 5px 10px;
+}

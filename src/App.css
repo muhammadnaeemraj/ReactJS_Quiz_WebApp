@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar{
+  width: 0px;
+}
+
+a{
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.App{
+  border: 8px solid rgb(50, 48, 48);
+  background-color: #667394;
+  min-height: 98.5vh;
+  margin: 4px;
+  padding: 5px;
+}
+/* Footer{
+} */
