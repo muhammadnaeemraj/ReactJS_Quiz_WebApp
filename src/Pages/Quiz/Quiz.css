@@ -11,3 +11,10 @@
     box-shadow: 04px 4px 2px black;
     padding: 5px 10px;
 }
+.quizInfo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin: 10px;
+}

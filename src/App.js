@@ -29,7 +29,7 @@ function App() {
         <Routes>
           <Route path='/' exact element={<Home name={name} setName={setName} fetchQuestions={fetchQuestions} />} />
           <Route path='/quiz' exact element={<Quiz name={name} questions={questions} setQuestions={setQuestions} score={score} setScore={setScore} />} />
-          <Route path='/result' exact element={<Result />} />
+          <Route path='/result' exact element={<Result name={name} score={score} />} />
         </Routes>
       </div>
       <Footer />
